@@ -1,0 +1,26 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+  .kkk {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+  input {
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+  h1 {
+    text-align: center;
+    padding: 20px;
+  }
+  label {
+    padding: 20px;
+    font-size: 20px;
+  }
+  button {
+    margin-left: 500px;
+    margin-right: 500px;
+  }
