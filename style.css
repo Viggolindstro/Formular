@@ -1,26 +1,34 @@
 * {
     padding: 0px;
     margin: 0px;
-}
+  }
+
   .kkk {
     display: flex;
     flex-direction: column;
     text-align: center;
     padding: 20px;
+    background-color: black;
+    color: white;
+    width: 100%
   }
-  input {
-    margin-left: 300px;
-    margin-right: 300px;
-  }
+
   h1 {
     text-align: center;
     padding: 20px;
+    color: white;
+    background-color: black;
+    font-size: 50px;
   }
+
   label {
     padding: 20px;
     font-size: 20px;
   }
-  button {
-    margin-left: 500px;
-    margin-right: 500px;
-  }
+button {
+  transition-timing-function: ease-in-out 5s;
+}
+ #terms {
+margin-left: 500px;
+margin-right: 10px;
+}

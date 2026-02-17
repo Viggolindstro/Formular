@@ -12,16 +12,16 @@
     <form id="contactForm" class = "kkk">
     <label for="name">Namn</label>
 
-    <input type="text" id="name" required minlength="2" maxlength="50" pattern="[A-Za-zÅÄÖåäö]+">
+    <input type="text" id="name" minlength="2" maxlength="50" pattern="[A-Za-zÅÄÖåäö]+">
 
     <label for="email">E-post</label>
-    <input type="email" id="email" required>
+    <input type="email" id="email">
 
     <label for ="message">Meddelande</label>
-    <textarea id="message" required maxlength="500"></textarea>
+    <textarea id="message" maxlength="500"></textarea>
 
     <label for="subject">Ämne</label>
-    <select id="subject" required>
+    <select id="subject">
         <option value="">--Välj ämne--</option>
         <option value="fraga">Fråga</option>
         <option value="feedback">Feedback</option>
@@ -30,7 +30,7 @@
 
     <label style="width: max-content;">
 
-        <input type="checkbox" id="terms" required>Jag godkänner villkoren
+        <input type="checkbox" id="terms">Jag godkänner villkoren
 
     </label>
 
