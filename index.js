@@ -1,5 +1,5 @@
 const form = document.getElementById("contactForm");
-const errorDiv = document.getElementById("errorMessages")
+const errorDiv = document.getElementById("errorMessages");
 
 form.addEventListener("submit", function(event) {
 
@@ -14,7 +14,7 @@ form.addEventListener("submit", function(event) {
 
     // Namn validering
     if (!/^[A-Za-zÅÄÖåäö]{2,50}$/.test(name)) {
-        errors.push("Namn måste vara 2-50 bokstäver kycklingko.");
+        errors.push("Namn måste vara 2-50 bokstäver.");
     }
 
     //E-post-validering
